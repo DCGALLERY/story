@@ -31,7 +31,7 @@ layout: main
                   {% for post in site.posts %}    
                   <div class="section-blog__wrapper-post">
                     <article class="figure-post">
-                      <div class="figure-post__media"><a class="lazy" href="{{ post.url }}"><img data-src="{{post.link_img}}" width="1920" height="1280" src="#" alt=""/>
+                      <div class="figure-post__media"><a class="lazy" href="{{ post.url | prepend: site.baseurl}}"><img data-src="{{post.link_img}}" width="1920" height="1280" src="#" alt=""/>
                           <time class="figure-post__date" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h3">{{ post.day }}</span><span class="figure-post__date-month">{{ post.month }}</span></time></a></div>
                       <div class="figure-post__wrapper-info mt-3 small-caps">
                         <ul class="post-meta">
@@ -42,12 +42,12 @@ layout: main
                           </li>
                         </ul>
                       </div>
-                      <div class="figure-post__header mt-1"><a class="d-block" href="{{ post.url }}">
+                      <div class="figure-post__header mt-1"><a class="d-block" href="{{ post.url | prepend: site.baseurl}}">
                           <h2 class="h3 mt-0">{{ post.title }}</h2></a></div>
                       <div class="figure-post__content">
                         <p>{{ post.excerpt }}</p>
                       </div>
-                      <div class="figure-post__wrapper-readmore mt-1 mt-md-2 text-right"><a class="button button_bordered button_white" data-hover="Read More" href="{{ post.url }}"><span class="button__label-hover">Read More</span></a>
+                      <div class="figure-post__wrapper-readmore mt-1 mt-md-2 text-right"><a class="button button_bordered button_white" data-hover="Read More" href="{{ post.url | prepend: site.baseurl}}"><span class="button__label-hover">Read More</span></a>
                       </div>
                     </article>
                   </div>

@@ -12,9 +12,9 @@
     },
     "link-page": 
     {
-      "home": "index.html",
-      "blog": "blog.html",
-      "portfolio": "portfolio.html",
+      "home": "index",
+      "blog": "blog",
+      "portfolio": "portfolio",
       "about": "about.html"
     },
     "link-social": 

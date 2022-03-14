@@ -1,0 +1,28 @@
+{
+    "domain": "",
+    "info":{
+        "address":  {
+            "stress": "11-Ya Parkovaya Ulitsa",
+            "city": "Moscow",
+            "country": "Russia",
+            "zip-code": 105077
+        },
+        "phone": "+7 (985) 733 6161",
+        "email": "mail@ledinhcuong.com"
+    },
+    "link-page": 
+    {
+      "home": "index.html",
+      "blog": "blog.html",
+      "portfolio": "portfolio.html",
+      "about": "about.html"
+    },
+    "link-social": 
+    {
+      "facebook": "https://www.facebook.com/ledhcg",
+      "twitter": "https://www.twitter.com/ledhcg",
+      "instagram": "https://www.instagram.com/ledhcg",
+      "github": "https://www.github.com/ledhcg",
+      "500px": "https://www.500px.com/ledhcg"
+    }
+}

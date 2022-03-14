@@ -1,0 +1,27 @@
+---
+layout: construction
+title: Tôi sẽ đi du học
+link_img: imagesBlog/2018_06_12_01.jpg
+categories: [story]
+tags: [hot, summer]
+excerpt_separator: <!--more-->
+time:   June 12, 2018
+day:   12
+month: Jun.18
+---
+Cảm giác này rất giống lúc tôi nhận được kết quả tôi đậu và chuyên Lam Sơn ngày nào, tôi muốn tin nhưng không dám tin. Tôi đã làm được. Dù nó không phải con đường như cậu tôi từng nói, một con đường tới Mỹ, nhưng con đường này cũng xứng để trải nghiệm đấy chứ!
+<!--more-->
+
+Tôi mất nửa năm để thực sự tìm lại mình sau những khó khăn. Nửa năm đó để chứng tỏ lại bản thân, nửa năm đó để chăm chỉ hơn, cố gắng hơn, nửa ăm đó để tìm lại niềm tin nơi những con người yêu quý tôi. Thực sự những điều trước đó với mọi người là không tệ nhưng sự với tôi, nó thật đáng thất vọng. Tôi bắt đầu lại ở một nơi hoàn toàn mới, một trải nghiệm mới, một cuộc sống mới. Wow, một chút khó khăn nhưng thú vị. Tôi đã làm được nhiều hơn điều tôi nghĩ. Hà Nội bụi bặm nhưng LDC lại fresh hơn mỗi ngày khi tôi lao đầu để làm điều tôi cho là đúng. Rồi mọi thứ cũng đến cái thời điểm xem lại kết quả mình - nhưng game không đơn giản thế, tôi phải chờ đợi và đợi chờ là hạnh phúc. Trong lúc chờ đợi giai đoạn đầu của giấc mơ này, cảm xúc luôn luôn thay đổi vi có những lúc tôi mơ về một kết quả trong mơ, nhưng rồi cũng có lúc lại thẫn người khi nghĩ đến kết quả chẳng lành. Nhiều khi còn nghĩ mình sẽ phải làm gì khi đối diện với kết quả như thế. Rồi ngày nhận kết quả giai đoạn đầu tiên đã tới, tôi đã mừng rồi thất vọng và rồi cuối cùng là mừng. Tôi gọi về cho cậu ruột của mình khi nói về kế hoạch của mình bằng một giọng thất vọng - "Có lẽ cháu dừng lại rồi". Tại sao không phải gia đình mà là cậu? Vì sở thích ngày hôm nay của tôi có một phần ảnh hưởng từ cậu, nên tôi luôn muốn tham khảo ý kiến của cậu, còn với gia đình, tôi muốn làm điều bất ngờ với họ. Nhưng biết gì không, vài tiếng sau, tôi biết chắc mình sẽ đi tiếp, tôi sẽ làm hồ sơ apply du học.
+
+Chặng đường mới bắt đầu, tôi quyết định kế hoạch của mình trong sự yên bình, không public, không ồn ào. Và cứ thế mọi thứ diễn ra ít người biết nhất có thể, ngay cả gia đình và bạn bè. Tôi sợ rằng tôi sẽ làm mọi người thất vọng lần nữa nếu họ biết kế hoạch của mình rồi tôi lỡ không thể đạt được kết quả như tôi muốn thì điều đó là rất tệ. Nhưng rồi cũng đến ngày gia đình phải biết kế hoạch này, họ ủng hộ tôi - tôi biết điều đó vì họ tin tưởng tôi và luôn muốn tôi đạt được những điều tốt nhất. Họ đã từng cho tôi quyết định khi vào đại học mà. Tôi trở về làm hộ chiếu một cách gấp gáp. Quay trở về cái cảm giác tôi yêu nhất - gia đình dõi theo, mẹ và chị quan tâm, bố đồng hành. Tôi lại cùng bố đồng hành như bao lần trước đó. Chỉ là lần này khác hơn chút, tôi đã lớn hơn, tôi cảm nhận được nhiều thứ hơn và tôi đang làm tấm vé tạm thời xa gia đình mình. Những ngày làm hồ sơ tôi liên tục di chuyển từ Hà Nội về Thanh Hóa nhưng chẳng kịp ở nhà được nhiều, có lần chỉ là 30' rồi chào bố mẹ đi, hồi đó chị tôi vẫn còn ở Vĩnh Phúc. Và bộ hồ sơ của tôi đã hoàn thành trước ngày 30/4 nhưng lần này tôi quyết định ở lại Hà Nội và đám bạn. Từ ngày tôi làm hồ sơ apply thì việc chủ yếu mỗi ngày của tôiôi trên trường là enjoy những ngày tháng còn lại cùng đám bạn mới quen thời đại học ở đó. Một vài người biết việc tôi sẽ đi, nhưng phần đông chẳng hề hay biết, nhưng điều đó lại hay, tôi muốn như vậy một cách thoải mái. Tiếp theo của nửa năm tiếp theo của tôi là thế đó - Đợi, và đợi một quyết định chính thức (và vẫn trong cảm giác hồi hộp).
+
+<img style="width: 100%" alt="" src="imagesBlog/2018_06_12_02.jpg">
+
+Càng gần đến những ngày có thể nhận được mail, tôi càng hồi hộp và lo lắng hơn. Thực sự điều này khó khăn hơn nhiều, quá nhiều thứ làm tôi lo lắng. Nhưng hôm nay, cảm giác lo lắng đó kết thúc. Tôi nhận được mail khi còn nghe giảng tiết Kỹ năng mềm. Thông báo điện thoại rung lên và một dòng tiêu đề hiện lên trên màn hình khóa. Ôi nó đây rồi, tay tôi run run kè theo sự hồi hộp. Tôi cần ra ngoài hành lang ngay. và kết quả là "Wow, tôi sẽ đi du học" - Cảm xúc của tôi không thể giấu nổi sự vui mừng, và người bạn kế bên đã biết được điều đó, một niềm vui được sẻ chia. Hôm nay tôi hạnh phúc. Cảm ơn, cảm ơn thật nhiều.
+
+Đã lâu rồi tôi mới lâng lâng trong cảm giác sung sướng của thành công, có thể gọi nó là thành công với tôi. I got it. Một chút tự tin đã trở lại trong con người tôi ngày hôm nay. Để tôi nhớ xem nào, đã bao lâu rồi tôi mới cảm nhận lại điều tương tự như này? Khá lâu rồi, lâu đến nỗi dường như tôi mất đi cảm giác đó. Hôm nay vui đó nhưng dường như tôi đã khác đi rồi - không còn một niềm vui đạt đỉnh cao lấn át hết mọi thứ, vẫn vui mừng không thể tả nhưng rồi hoàn hồn rằng mọi thứ mới bắt đầu thôi và sẽ còn nhiều thứ tiếp diễn nữa. Tôi cũng từng "thành công" và rồi tôi chững lại sau đó cho tới giờ, nên điều tôi nhận được, "thành công" không phải là điều cuối cùng. Chắc có thể do đã lớn hơn những ngày thời đó, có nhiều điều nghĩ hơn, cuộc sống quay cuồng hơn nên tôi phải nghĩ thế nhưng biết sao được - vì ai cũng phải lớn.
+
+Tôi gọi về gia đình nhưng không quên dặn, "Nó chưa phải là cuối cùng, ngày con nhận được vé máy bay, lúc đó con mới được đi du học" - Tôi biết rằng 99% tôi đã đặt chân lên giấc mơ của mình, với nhiều người nghĩ điều đó là dễ nhưng với tôi, nó đã rất gập ghềnh. 1% luôn có thể xảy ra bất cứ khi nào, nên xin lỗi bạn bè của tôi, tôi sẽ chia sẻ khi tôi cảm giác chắc chắn nhất.
+
+Tôi sẽ đi du học, nhưng không phải ngay bây giờ.

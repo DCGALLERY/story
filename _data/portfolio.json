@@ -282,5 +282,96 @@
             "link": "https://www.youtube.com/watch?v=agloR8gUEC0",
             "time": "25 DEC 2018"
         }
-    ]  
+    ],
+    "design":
+    [
+        {
+            "img_name": "P01",
+            "img_width": 1450,
+            "img_height": 1920,
+            "data_size": "6000x4000",
+            "grid__item_desktop": 3,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P02",
+            "img_width": 1450,
+            "img_height": 1920,
+            "data_size": "3713x5569",
+            "grid__item_desktop": 3,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P03",
+            "img_width": 1920,
+            "img_height": 1080,
+            "data_size": "6000x4000",
+            "grid__item_desktop": 6,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P04",
+            "img_width": 1920,
+            "img_height": 1080,
+            "data_size": "6000x4000",
+            "grid__item_desktop": 6,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P05",
+            "img_width": 1450,
+            "img_height": 1920,
+            "data_size": "2592x1728",
+            "grid__item_desktop": 3,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P06",
+            "img_width": 1450,
+            "img_height": 1920,
+            "data_size": "5638x3759",
+            "grid__item_desktop": 3,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P10",
+            "img_width": 1920,
+            "img_height": 1080,
+            "data_size": "4096x2730",
+            "grid__item_desktop": 6,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P07",
+            "img_width": 1450,
+            "img_height": 1920,
+            "data_size": "5729x3819",
+            "grid__item_desktop": 3,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P08",
+            "img_width": 1450,
+            "img_height": 1920,
+            "data_size": "3410x5115",
+            "grid__item_desktop": 3,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P09",
+            "img_width": 1920,
+            "img_height": 1080,
+            "data_size": "4928x3286",
+            "grid__item_desktop": 6,
+            "grid__item_tablet": 6
+        },
+        {
+            "img_name": "P11",
+            "img_width": 1920,
+            "img_height": 1080,
+            "data_size": "6000x4000",
+            "grid__item_desktop": 6,
+            "grid__item_tablet": 12
+        }        
+    ]   
 }

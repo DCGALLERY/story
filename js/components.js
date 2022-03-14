@@ -2447,10 +2447,10 @@ function PJAXInitNewPage(data) {
 					PJAXUpdateHead(data),
 					PJAXUpdateAdminBar(data),
 					PJAXUpdateLanguageSwitcher(data),
-					//Load link
-					loadLink(dataApp),
-					//Load portfolio 
-					loadPortfolio(dataPortfolio),
+					// //Load link
+					// loadLink(dataApp),
+					// //Load portfolio 
+					// loadPortfolio(dataPortfolio),
 					
 				])
 				.then(() => document.fonts.ready)

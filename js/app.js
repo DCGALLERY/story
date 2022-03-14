@@ -131,15 +131,15 @@ function loadInfo(data){
       $(".js-info-address").html(info["address"]["stress"]+`<br/>`+info["address"]["city"]+`, `+info["address"]["country"]+`<br/>`+info["address"]["zip-code"]);
 }
 
-$.getJSON("portfolio.json", function(data){
-  dataPortfolio = data;
-  loadPortfolio(dataPortfolio);
-})
-$.getJSON("app.json", function(data){
-  dataApp = data;
-  loadLink(dataApp);
-  loadInfo(dataApp)
-})
+// $.getJSON("portfolio.json", function(data){
+//   dataPortfolio = data;
+//   loadPortfolio(dataPortfolio);
+// })
+// $.getJSON("app.json", function(data){
+//   dataApp = data;
+//   loadLink(dataApp);
+//   loadInfo(dataApp)
+// })
 
 
 

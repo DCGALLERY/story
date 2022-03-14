@@ -185,17 +185,17 @@
           <!-- fullscreen menu -->
           <div class="header__wrapper-menu">
             <ul class="menu-overlay js-menu-overlay">
-              <li class="menu-item-has-children"><a class="h2 js-href-home" href="#" data-pjax-link="overlayMenu">
-                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Home</div></a>
+              <li class="menu-item-has-children"><a class="h2 js-href-home" href="{{site.data.app.link-page.home.link}}" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">{{site.data.app.link-page.home.name}}</div></a>
               </li>
-              <li class="menu-item-has-children"><a class="h2 js-href-blog" href="#" data-pjax-link="overlayMenu">
-                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Blog</div></a>
+              <li class="menu-item-has-children"><a class="h2 js-href-story" href="{{site.data.app.link-page.story.link}}" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">{{site.data.app.link-page.story.name}}</div></a>
               </li>
-              <li class="menu-item-has-children"><a class="h2 js-href-portfolio" href="#" data-pjax-link="overlayMenu">
-                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Portfolio</div></a>
+              <li class="menu-item-has-children"><a class="h2 js-href-portfolio" href="{{site.data.app.link-page.portfolio.link}}" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">{{site.data.app.link-page.portfolio.name}}</div></a>
               </li>
-              <li class="menu-item-has-children"><a class="h2 js-href-about" href="#" data-pjax-link="overlayMenu">
-                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About</div></a>
+              <li class="menu-item-has-children"><a class="h2 js-href-about" href="{{site.data.app.link-page.about.link}}" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">{{site.data.app.link-page.about.name}}</div></a>
               </li>
             </ul>
           </div>
@@ -208,8 +208,8 @@
                 <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Contacts</div>
                 <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
                   <p>
-                    <a class="js-info-email text-light" href="#"></a>
-                    <p class="js-info-phone text-light"></p>
+                    <a class="js-info-email text-light" href="mailto:{{site.data.app.info.email}}">{{site.data.app.info.email}}</a>
+                    <p class="js-info-phone text-light">{{site.data.app.info.phone}}</p>
                   </p>
                 </div>
               </div>
@@ -218,7 +218,11 @@
               <div class="col-lg-4 header__widget">
                 <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Office</div>
                 <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
-                  <p class="js-info-address text-light"></p>
+                  <p class="js-info-address text-light">
+                    {{site.data.app.info.address.stress}}<br/>
+                    {{site.data.app.info.address.city}}, {{site.data.app.info.address.country}}<br/>
+                    {{site.data.app.info.address.zip-code}}
+                  </p>
                 </div>
               </div>
               <!-- - widget TEXT -->
@@ -226,7 +230,7 @@
               <div class="col-lg-4 header__widget">
                 <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Want to Work with Me?</div>
                 <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
-                  <p><a class="js-href-about text-light" href="#">Get in Touch</a><br/>
+                  <p><a class="js-href-about text-light" href="{{site.data.app.link-page.about}}">Get in Touch</a><br/>
                   </p>
                 </div>
               </div>

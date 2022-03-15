@@ -1,6 +1,7 @@
 {
     "domain": "",
     "info":{
+        "name": "LE DINH CUONG",
         "address":  {
             "stress": "11-Ya Parkovaya Ulitsa",
             "city": "Moscow",
@@ -8,7 +9,8 @@
             "zip-code": 105077
         },
         "phone": "+7 (985) 733 6161",
-        "email": "mail@ledinhcuong.com"
+        "email": "mail@ledinhcuong.com",
+        "website": "https://ledinhcuong.com"
     },
     "link-page": 
     {

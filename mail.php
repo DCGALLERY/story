@@ -2,10 +2,10 @@
 
 if ( $_POST ) {
 
-	$frm_name  = 'John Doe'; // your name
-	$recepient = 'john@example.com'; // your e-mail
-	$sitename  = 'Rhye HTML5 Template'; // your site name
-	$subject   = "New contact from \"$sitename\""; // subject template
+	$frm_name  = 'Le Dinh Cuong';
+	$recepient = 'mail@ledinhcuong.com';
+	$sitename  = 'ledinhcuong.com';
+	$subject   = "New contact from \"$sitename\"";
 
 	$name  = trim( $_POST['visitor_name'] );
 	$email = trim( $_POST['visitor_email'] );

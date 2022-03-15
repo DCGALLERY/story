@@ -50,35 +50,37 @@ layout: main
                       <div class="section-content__inner">
                         <div class="w-100"></div>
                         <div class="section-content__text" style="text-align:justify">
-                          <p>First off, a HUGE HUG and a MAHOOOOSIVE THANK YOU from me, for checking out my website! Seriously, it means a lot to me so thanks for stopping by to visit!</p>
+                          <p>First off, a HUGE HUG and a MAHOOSIVE THANK YOU from me, for checking out my website! Seriously, it means a lot to me so thanks for stopping by to visit!</p>
                           <h4 class="mt-2">Who’s LDC?</h4>
                           <div class="section__headline mt-1 mr-auto"></div>
-                          <p>Let’s see…. How would I describe myself? – Handsome, no - Gorgeous! Again… JUST KIDDING! I’m LE DINH CUONG, a/an desiger/photographer/editor/developer and ... I don't know )) who’s lucky enough to call Vietnam home. I fill these pages with my life & adventures. 
+                          <p>Let’s see…. How would I describe myself? – Handsome, no - Gorgeous! Haha... just kidding ))) I’m LE DINH CUONG, a/an desiger/photographer/editor/developer and ... I don't know )) who’s lucky enough to call Vietnam home. I fill these pages with my life & adventures. 
                             I'm originally from Thanh Hoa, Vietnam and an alumnus of "Lam Son High School for the Gifted" and "Academy of Cryptography Techniques".
                             Currenly, I'm an international student in Russia. I love the internet, technology, music, sports, dogs, cats, children, ... and building beautiful things.
                             Follow my misadventures as I stay, work, wander, eat, and photograph my way around this world.</p>
                             <h4 class="mt-2">Wanna Know More?</h4>
                           <div class="section__headline mt-1 mr-auto"></div>
-                          <p>If you have any questions or wanna know more about me, let's send me an email then we will be able to talk together! 🙂</p>
+                          <p>If you have any questions or wanna know more about me, just send me an email then we will be able to talk together. I’m always open to interesting conversations and collaboration. 🙂</p>
                         </div>
                       </div>
                     </section>
                     <aside class="aside aside-counters">
                       <div class="row">
                         <div class="col-6 mt-small">
-                          <div class="counter js-counter" data-counter-start="0" data-counter-target="230" data-counter-duration="10">
+                          <div class="counter js-counter js-time-designing-experience" data-counter-start="0" data-counter-target="" data-counter-duration="5">
                             <!-- animated number -->
-                            <div><span class="counter__number js-counter__number">230</span> weeks</div>
+                            <div><span class="counter__number js-counter__number" id="js-time-designing-experience"></span> years</div>
                             <!-- - animated number -->
-                            <div class="counter__label">Designing experience</div>
+                            <div class="counter__label">Work experience</div>
+                            <div>Graphic design</div>
                           </div>
                         </div>
                         <div class="col-6 mt-small">
-                          <div class="counter js-counter" data-counter-start="0" data-counter-target="116" data-counter-duration="10">
+                          <div class="counter js-counter js-time-programming-experience" data-counter-start="0" data-counter-target="" data-counter-duration="5">
                             <!-- animated number -->
-                            <div><span class="counter__number js-counter__number">116</span> weeks</div>
+                            <div><span class="counter__number js-counter__number" id="js-time-programming-experience"></span> years</div>
                             <!-- - animated number -->
-                            <div class="counter__label">Programming experience</div>
+                            <div class="counter__label">Work experience</div>
+                            <div>Software development</div>
                           </div>
                         </div>
                       </div>
@@ -89,6 +91,73 @@ layout: main
             </div>
           </section>
           <!-- - section ABOUT -->
+          <!-- section CONTENT #1 -->
+          <section class="section section-content clearfix pt-medium pb-small text-center" data-arts-os-animation="data-arts-os-animation">
+            <div class="section-content__inner">
+              <div class="w-100"></div>
+              <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
+              <div class="w-100"></div>
+              <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                <h2>Get in Touch</h2>
+              </div>
+              <div class="w-100"></div>
+            </div>
+          </section>
+          <!-- - section CONTENT #1 -->
+          <div class="container container_px-xs-0">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- section FORM -->
+                <section class="section section-form pb-medium">
+                  <form class="form form-contact js-ajax-form bg-dark-2 form-contact_paddings rounded" action="http://api.ledinhcuong.com/mail.php" method="POST" data-message-success="Thanks for your message! I will reply you as soon as possible." data-message-error="Something went wrong :( Please contact me directly at &lt;a href=&quot;{{site.data.app.info.email}}&quot;&gt;{{site.data.app.info.email}}&lt;/a&gt;">
+                    <!-- header -->
+                    <div class="row form__row">
+                      <div class="col form__col">
+                        <h3 class="h3 mt-0 mb-0">Send Message</h3>
+                      </div>
+                    </div>
+                    <!-- - header -->
+                    <!-- input #1 -->
+                    <div class="row form__row">
+                      <div class="col form__col">
+                        <label class="input-float js-input-float">
+                          <input class="input-float__input" type="text" name="visitor_name" required="required" data-msg="Please enter your name"/><span class="input-float__label">Your Name</span><span class="form__error"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <!-- - input #1 -->
+                    <!-- input #2 -->
+                    <div class="row form__row">
+                      <div class="col form__col">
+                        <label class="input-float js-input-float">
+                          <input class="input-float__input" type="email" name="visitor_email" required="required" data-msg="Please enter a correct e-mail"/><span class="input-float__label">Your E-mail</span><span class="form__error"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <!-- - input #2 -->
+                    <!-- input #3 -->
+                    <div class="row form__row">
+                      <div class="col form__col">
+                        <label class="input-float js-input-float">
+                          <textarea class="input-float__input input-float__input_textarea" name="visitor_msg"></textarea><span class="input-float__label">Your Message</span><span class="form__error"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <!-- - input #3 -->
+                    <!-- submit -->
+                    <div class="row form__row">
+                      <div class="col form__col form__col_submit">
+                        <button class="button button_solid button_black button_fullwidth" data-hover="Send Message"><span class="button__label-hover">Send Message</span></button>
+                      </div>
+                    </div>
+                    <!-- - submit -->
+                  </form>
+                </section>
+                <!-- - section FORM -->
+              </div>
+            </div>
+          </div>
+
           <!-- section CONTENT #1 -->
           <section class="section section-content clearfix pt-medium pb-small text-center" data-arts-os-animation="data-arts-os-animation">
             <div class="section-content__inner">

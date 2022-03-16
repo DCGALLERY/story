@@ -1,151 +1,121 @@
 ---
-title: LE DINH CUONG
+title: LE DINH CUONG | STORY
 layout: main
 ---
-
       <!-- PAGE MAIN -->
-      <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container">
+      <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container" data-arts-theme-text="light">
         <main class="page-wrapper__content">
-          <!-- section MASTHEAD -->
-          <section class="section section-masthead d-none" data-background-color="var(--color-dark-1)"></section>
-          <!-- - section MASTHEAD -->
-          <!-- section PROJECTS SLIDER FULLSCREEN -->
-          <section class="section section-fullheight section-projects section-projects-slider bg-dark-1 overflow" data-arts-theme-text="light" data-arts-os-animation>
-            <div class="section-fullheight__inner section-fullheight__inner_mobile text-center">
-              <div class="slider slider-fullscreen-projects js-slider-fullscreen-projects js-slider">
-                <!-- slider CONTENT -->
-                <div class="slider-fullscreen-projects__content swiper-container pointer-events-none js-slider-fullscreen-projects__content">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1 text-light" data-split-text-type="lines, words, chars" data-split-text-set="chars">La vie . L'amour . Le rire</div>
-                      <h2 class="h1 slider__heading js-split-text" data-split-text-type="lines, words, chars">DINH CUONG</h2>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1 text-light" data-split-text-type="lines, words, chars" data-split-text-set="chars">La vie . L'amour . Le rire</div>
-                      <h2 class="h1 slider__heading js-split-text" data-split-text-type="lines, words, chars">STORY</h2>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1 text-light" data-split-text-type="lines, words, chars" data-split-text-set="chars">La vie . L'amour . Le rire</div>
-                      <h2 class="h1 slider__heading js-split-text" data-split-text-type="lines, words, chars">PORTFOLIO</h2>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1 text-light" data-split-text-type="lines, words, chars" data-split-text-set="chars">La vie . L'amour . Le rire</div>
-                      <h2 class="h1 slider__heading js-split-text" data-split-text-type="lines, words, chars">ABOUT</h2>
-                    </div>
+          <!-- section MASTHEAD CONTAINER BOTTOM -->
+          <section class="section section-masthead pt-large pb-medium text-center" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-dark-1)">
+            <div class="section-masthead__inner container-fluid">
+              <header class="row section-masthead__header justify-content-center">
+                <div class="col">
+                  <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>La vie. L'amour. Le rire</span></div>
+                  <div class="w-100"></div>
+                  <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <h1 class="h1 mt-0 mb-0">MY STORY</h1>
                   </div>
+                  <div class="w-100"></div>
+                  <div class="section__headline mt-2 mx-auto"></div>
                 </div>
-                <!-- - slider CONTENT -->
-                <!-- slider IMAGES -->
-                <div class="slider-fullscreen-projects__images swiper-container js-slider-fullscreen-projects__images" data-mousewheel-enabled="data-mousewheel-enabled" data-direction="horizontal" data-transition-effect="distortion" data-aspect-ratio="1.5" data-transition-displacement-img="img/general/bg-displacement-7.jpg" data-speed="1200" data-autoplay-enabled="true" data-autoplay-delay="6000" data-counter-style="roman">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%">
-                        <div class="slider__bg lazy-bg js-transition-img__transformed-el" data-texture-src="img/assets/slider/main0.jpg"></div>
+              </header>
+            </div>
+          </section>
+          <!-- - section MASTHEAD CONTAINER BOTTOM -->
+          <!-- section BLOG LIST SIDEBAR -->
+          <section class="section section-blog pb-medium">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-lg-8 section-blog__posts">
+                  
+                  {% for post in site.posts %}    
+                  <div class="section-blog__wrapper-post">
+                    <article class="figure-post">
+                      <div class="figure-post__media"><a class="lazy" href="{{ post.url | prepend: site.baseurl}}"><img data-src="{{post.link_img}}" width="1920" height="1080" src="#" alt=""/>
+                          <time class="figure-post__date" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h3">{{ post.day }}</span><span class="figure-post__date-month">{{ post.month }}</span></time></a></div>
+                      <div class="figure-post__wrapper-info mt-3 small-caps">
+                        <ul class="post-meta">
+                          <li>
+                            <ul>
+                              <li><a href="#">{{post.categories[0]}}</a></li>
+                            </ul>
+                          </li>
+                        </ul>
                       </div>
-                    </div>
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%">
-                        <div class="slider__bg lazy-bg js-transition-img__transformed-el" data-texture-src="img/assets/slider/main3.jpg"></div>
+                      <div class="figure-post__header mt-1"><a class="d-block" href="{{ post.url | prepend: site.baseurl}}">
+                          <h2 class="h3 mt-0 font-vn-title">{{ post.title }}</h2></a></div>
+                      <div class="figure-post__content">
+                        <p>{{ post.excerpt }}</p>
                       </div>
-                    </div>
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%">
-                        <div class="slider__bg lazy-bg js-transition-img__transformed-el" data-texture-src="img/assets/slider/main2.jpg"></div>
+                      <div class="figure-post__wrapper-readmore mt-1 mt-md-2 text-right"><a class="button button_bordered button_white" data-hover="Read More" href="{{ post.url | prepend: site.baseurl}}"><span class="button__label-hover">Read More</span></a>
                       </div>
-                    </div>
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%">
-                        <div class="slider__bg lazy-bg js-transition-img__transformed-el" data-texture-src="img/assets/slider/main4.jpg"></div>
-                      </div>
-                    </div>
+                    </article>
                   </div>
-                  <!-- overlay -->
-                  <div class="slider__overlay overlay overlay_circle-dark overlay_deither"></div>
-                  <div class="slider__circle"></div>
-                  <!-- - overlay -->
+                  {% endfor %} 
                 </div>
-                <!-- - slider IMAGES -->
-                <!-- slider FOOTER -->
-                <div class="slider-fullscreen-projects__footer swiper-container js-slider-fullscreen-projects__footer">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer">
-                        <section class="widget widget_rhye_social">
-                          <!-- content -->
-                          <ul class="social">
-                            <li class="social__item"><a class="fa-brands fa-facebook js-href-facebook" href="{{site.data.app.link-social['facebook']}}" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa-brands fa-twitter js-href-twitter" href="{{site.data.app.link-social['twitter']}}" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa-brands fa-instagram js-href-instagram" href="{{site.data.app.link-social['instagram']}}" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa-brands fa-github js-href-github" href="{{site.data.app.link-social['github']}}" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa-brands fa-500px js-href-500px" href="{{site.data.app.link-social['500px']}}"  target="_blank" rel="noopener noreferrer"></a></li>
-                          </ul>
-                          <!-- - content -->
-                        </section>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered js-href-story" data-hover="Explore" href="{{site.data.app.link-page.story.link}}" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore</span></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered js-href-portfolio" data-hover="Explore" href="{{site.data.app.link-page.portfolio.link}}" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore</span></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered js-href-about" data-hover="Explore" href="{{site.data.app.link-page.about.link}}" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore</span></a>
-                      </div>
-                    </div>
-                  </div>
+                <!-- sidebar -->
+                <div class="col-lg-3 section-blog__sidebar">
+                  <aside class="sidebar sidebar_no-margin-last-widget widget-area">
+                    <!-- widget SEARCH -->
+                    <section class="widget widget_search">
+                      <!-- header -->
+                      <!-- - header -->
+                      <!-- content -->
+                      
+                      <section class="section section-content clearfix text-center" data-arts-os-animation="data-arts-os-animation">
+                        <div class="section-content__inner">
+                          <div class="figure-testimonial__sign mx-auto"><img src="img/general/quote-white.svg" alt="alt"/></div>
+                          
+                          <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                            <h6>Le bonheur est souvent la seule chose qu’on puisse donner sans l’avoir et c’est en le donnant qu’on l’acquiert.
+                            </h6>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="section__headline mt-1 mt-md-2 mx-auto"></div>
+                          <div class="w-100"></div>
+                        </div>
+                      </section>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget SEARCH -->
+                    <!-- widget CATEGORIES LIST -->
+                    <section class="widget widget_categories">
+                      <!-- header -->
+                      <h2 class="widgettitle">Categories</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul>
+                        {% for category in site.categories %}
+                            <li class="cat-item"><a href="#">{{ category[0] | capitalize }}</a><span>{{ category[1].size }}</span></li>
+                        {% endfor %}
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget CATEGORIES LIST -->
+                    <!-- widget RECENT POSTS -->
+                    <section class="widget widget_recent_entries">
+                      <!-- header -->
+                      <h2 class="widgettitle">Recent Posts</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul>
+                        {% for post in site.posts limit:3 %}
+                        <li><a href="{{ post.url }}"><span class="h4 font-vn-title">{{ post.title }}</span></a>
+                          <div class="post-date">{{ post.time }}</div>
+                        </li>
+                        {% endfor %}
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget RECENT POSTS -->
+                  </aside>
                 </div>
-                <!-- - slider FOOTER -->
-
-                 <!-- slider COUNTER -->
-                 <div class="slider__wrapper-counter slider-fullscreen-projects__counter">
-                  <div class="slider__counter slider__counter_current">
-                    <div class="js-slider-fullscreen-projects__counter-current swiper-container">
-                      <div class="swiper-wrapper"></div>
-                    </div>
-                  </div>
-                  <div class="slider__counter-divider slider-fullscreen__counter-divider"></div>
-                  <div class="slider__counter slider__counter_total js-slider-fullscreen-projects__counter-total"></div>
-                </div>
-                <!-- - slider COUNTER -->
-
-                
-                <!-- slider ARROWS -->
-                <div class="slider__arrow slider__arrow_left slider__arrow_absolute js-slider__arrow-prev">
-                  <div class="arrow arrow-left js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                    </svg>
-                    <div class="arrow__pointer arrow-left__pointer"></div>
-                    <div class="arrow__triangle"></div>
-                  </div>
-                </div>
-                <div class="slider__arrow slider__arrow_right slider__arrow_absolute js-slider__arrow-next">
-                  <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                    </svg>
-                    <div class="arrow__pointer arrow-right__pointer"></div>
-                    <div class="arrow__triangle"></div>
-                  </div>
-                </div>
-                <!-- - slider ARROWS -->
-                <!-- slider CANVAS -->
-                <div class="slider__wrapper-canvas">
-                  <div class="slider__wrapper-canvas-inner">
-                    <canvas class="slider__canvas"></canvas>
-                  </div>
-                </div>
-                <!-- - slider CANVAS -->
+                <!-- - sidebar -->
               </div>
             </div>
           </section>
-          <!-- - section PROJECTS SLIDER FULLSCREEN -->
+          <!-- - section BLOG LIST SIDEBAR -->
         </main>
-        <!-- PAGE FOOTER -->
-        <!-- - PAGE FOOTER -->
+        {% include footer.html %}
       </div>
       <!-- - PAGE MAIN -->
-  

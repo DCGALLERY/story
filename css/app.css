@@ -179,3 +179,57 @@ img[src~="rounded"] {
   font-family: 'Italianno', cursive !important;
 }
 
+
+.cover_about {
+  width: 100%;
+  height: 100%;
+}
+
+.cover_about__container {
+  width: 100%;
+  height: 100%;
+}
+
+.section-cover_about{
+  border-radius: 0 20px 20px 0 !important;
+}
+.cover_about_img{
+  border-radius: 0 20px 20px 0 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .cover_about__container {
+    height: 600px;
+    max-height: 120vh;
+  }
+  .section-cover_about{
+    border-radius: 0 0 20px 20px !important;
+  }
+  .cover_about_img{
+    border-radius: 0 0 20px 20px !important;
+  }
+}
+
+.pagination{
+  border: none !important;
+}
+
+
+.bg-dark-1 {
+	background: linear-gradient(-45deg, #110000, var(--color-dark-1), #000011, var(--color-dark-1));
+	background-size: 400% 400%;
+  backdrop-filter: blur(10px);
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

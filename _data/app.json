@@ -1,7 +1,11 @@
 {
-    "domain": "",
+    "domain": "https://ledinhcuong.com",
+    "domain_story":  "https://story.ledinhcuong.com",
     "info":{
         "name": "LE DINH CUONG",
+        "description": "La vie . L'amour . Le rire",
+        "keywords": "le dinh cuong blog,blog, portfolio, ledhcg, lê đình cường, đình cường, lê cường, cường, le dinh cuong, dinh cuong, thedc, dc, dcfoto, thedcfoto, fotogallery, dcfotogallery, thedcfotogallery",
+        "image": "img/assets/slider/main0.jpg",
         "address":  {
             "stress": "11-Ya Parkovaya Ulitsa",
             "city": "Moscow",
@@ -15,19 +19,19 @@
     "link-page": 
     {
       "home": {
-        "link": "index",
+        "link": "https://ledinhcuong.com",
         "name": "Home"
       },
       "story": {
-        "link": "story",
+        "link": "https://story.ledinhcuong.com",
         "name": "Story"
       },
       "portfolio": {
-        "link": "portfolio",
+        "link": "https://ledinhcuong.com/portfolio",
         "name": "Portfolio"
       },
       "about": {
-        "link": "about",
+        "link": "https://ledinhcuong.com/about",
         "name": "About"
       }
     },
@@ -38,5 +42,24 @@
       "instagram": "https://www.instagram.com/ledhcg",
       "github": "https://www.github.com/ledhcg",
       "500px": "https://www.500px.com/ledhcg"
-    }
+    },
+    "quotes": 
+    [
+      {
+        "content": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.",
+        "author": "Steve Jobs"
+      },
+      {
+        "content": "Le bonheur est souvent la seule chose qu'on puisse donner sans l'avoir et c'est en le donnant qu'on l'acquiert.",
+        "author": "Voltaire"
+      },
+      {
+        "content": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+        "author": "Pablo Picasso"
+      },
+      {
+        "content": "Being brave doesn't mean you aren't scared. Being brave means you are scared, really scared, badly scared, and you do the right thing anyway.",
+        "author": "Neil Gaiman"
+      }
+    ]
 }

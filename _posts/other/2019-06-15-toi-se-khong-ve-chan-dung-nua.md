@@ -14,7 +14,7 @@ Cái hồi đó còn hay nghe nhạc Hàn nên nhóm nào thích là đem bút d
 
 Có điều gì đó đã "nguyền" vào những bức hình tôi vẽ. Thật lạ kì tại sao tôi cứ vẽ ảnh tặng ai đó thì sau đó mối quan hệ của tôi và người đó sẽ đi xuống không lâu sau đó. Thêm một lần nữa tôi đã trải qua điều này, và có lẽ tôi cần quyết định để không còn ám ảnh vì nó nữa. 
 
-<img style="width: 100%" alt="" src="imagesBlog/2019_06_15_02.jpg">
+<img class="rounded w-100" alt="Image" src="imagesBlog/2019_06_15_02.jpg">
 
 Thật lạ sao cuộc sống của tôi có rất nhiều thứ trùng hợp, hoặc nó logic kì lạ đến không thể giải thích, vẽ thì liên quan gì đến mối quan hệ nhỉ, mối quan hệ do con người mà. Nhưng nó lại diễn ra liên tục nhiều hơn hai thì có lẽ thật khó để con người ta không quan tâm về lý do. Có lẽ xem như dừng lại để không ám ảnh về nó. Lại nhớ hồi nhỏ, chị mình từng không cho mình chụp hình những con chó nhà nuôi. Lạ không? Vì trước đó mỗi lần chụp chó là chúng lại bị bệnh. Và mãi sau này, một thời gian dài sau này khi không ai nhớ điều đó nữa thì đã có thể chụp được chúng mà không có chuyện gì xảy ra.
 

@@ -14,7 +14,7 @@ Mình đi cũng lâu rồi, câu nói luôn được nhắc đi nhắc lại d�
 
 Năm nay không bánh sinh nhật, không offline nên tất cả cùng rủ nhau gọi videocall. Có vẻ mọi thứ nó không được như offline. Skype sau một thời gian không sử dụng đã quay trở lại. Mình đã lúng túng trong việc bật camera ))) thật sự nhiều thứ lâu ngày không dùng bỗng đụng lại thật lạ lẫm. Ủa nhưng tại sao cứ nói chuyện được gần chục phút là mình lại mất tiếng phải out ra vào lại nhỉ? Kỳ lạ.
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_02.jpeg">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_02.jpeg">
 
 Mình chẳng biết đang viết cái gì cho bài này, chắc là ghi note đánh dấu gì đó.
 
@@ -24,17 +24,17 @@ Thực ra là do tìm được ít ảnh cũ, nên viết vài câu để rồi 
 
 Một chút LDC ở Kết Nối Lam Sơn
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_03.jpg">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_03.jpg">
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_08.jpg">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_08.jpg">
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_04.jpg">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_04.jpg">
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_05.jpg">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_05.jpg">
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_06.JPG">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_06.JPG">
 
-<img style="width: 100%" alt="" src="imagesBlog/2020_04_14/2020_04_14_07.JPG">
+<img class="rounded w-100" alt="Image"  src="imagesBlog/2020_04_14/2020_04_14_07.JPG">
 
 Chúc mọi người bình an, chúc KNLS tuổi mới phát triển hơn nữa. Hẹn ngày tái ngộ.
 

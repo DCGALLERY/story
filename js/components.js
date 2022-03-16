@@ -6,8 +6,6 @@
  * ==========================================================================
  * ==========================================================================
  * 
- * Rhye – AJAX Portfolio HTML5 Template
- * 
  * [Table of Contents]
  * 
  * 1. Animations
@@ -2451,6 +2449,8 @@ function PJAXInitNewPage(data) {
 					// loadLink(dataApp),
 					// //Load portfolio 
 					// loadPortfolio(dataPortfolio),
+					loadWorkExperience(),
+					loadCurrentYear()
 					
 				])
 				.then(() => document.fonts.ready)

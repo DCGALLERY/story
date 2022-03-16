@@ -143,22 +143,28 @@
 
 // js-time-designing-experience
 // js-time-programming-experience
-let startDes = new Date('2017-10-01');
-let startDev = new Date('2019-10-01');
-let today = new Date();
+loadWorkExperience();
 
-function diff_years(dt2, dt1) 
- {
-  var diff =(dt2.getTime() - dt1.getTime()) / 1000;
-   diff /= (60 * 60 * 24);
-  return Math.abs(Math.round(diff/365.25));
-   
- }
+function loadCurrentYear(){
+    $('.js-current-year').text(new Date().getFullYear());
+}
 
- let yearDes =  diff_years(startDes, today);
- let yearDev =  diff_years(startDev, today);
+function loadWorkExperience(){
+    let startDes = new Date('2017-10-01');
+    let startDev = new Date('2019-10-01');
+    let today = new Date();
 
-$('.js-time-designing-experience').data('counter-target',yearDes);
-$('.js-time-programming-experience').data('counter-target',yearDev);
-$('#js-time-designing-experience').text(yearDes);
-$('#js-time-programming-experience').text(yearDev);
+    let yearDes =  diff_years(startDes, today);
+    let yearDev =  diff_years(startDev, today);
+
+    $('.js-time-designing-experience').data('counter-target',yearDes);
+    $('.js-time-programming-experience').data('counter-target',yearDev);
+    $('#js-time-designing-experience').text(yearDes);
+    $('#js-time-programming-experience').text(yearDev);
+}
+
+function diff_years(dt2, dt1) {
+    var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+    diff /= (60 * 60 * 24);
+    return Math.abs(Math.round(diff/365.25));
+}

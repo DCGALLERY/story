@@ -143,12 +143,11 @@
 
 // js-time-designing-experience
 // js-time-programming-experience
+
+//Call function - Gọi hàm để hàm có thể chạy
 loadWorkExperience();
 
-function loadCurrentYear(){
-    $('.js-current-year').text(new Date().getFullYear());
-}
-
+//Định nghĩa một hàm - Chứa các thuật toán và logic hoặc các hành động
 function loadWorkExperience(){
     let startDes = new Date('2017-10-01');
     let startDev = new Date('2019-10-01');
@@ -161,6 +160,10 @@ function loadWorkExperience(){
     $('.js-time-programming-experience').data('counter-target',yearDev);
     $('#js-time-designing-experience').text(yearDes);
     $('#js-time-programming-experience').text(yearDev);
+}
+
+function loadCurrentYear(){
+    $('.js-current-year').text(new Date().getFullYear());
 }
 
 function diff_years(dt2, dt1) {
